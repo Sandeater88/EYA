@@ -10,7 +10,8 @@ TagManager:
   - safe
   - oggarlic
   - garlic
-  - heart
+  - Atest
+  - Btest
   layers:
   - Default
   - TransparentFX
