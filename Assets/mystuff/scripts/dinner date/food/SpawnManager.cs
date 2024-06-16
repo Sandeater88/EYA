@@ -17,7 +17,7 @@ public class SpawnManager : MonoBehaviour
     private GameObject currentPrefab; // The currently spawned prefab
     private Font customFont; // Reference to the custom font
 
-    private float healthIncrement = 10f; // Health increment per correct action
+    private float healthIncrement = 20f; // Health increment per correct action
 
     void Start()
     {
@@ -54,10 +54,10 @@ public class SpawnManager : MonoBehaviour
                 SpawnAtestPrefab();
 
             // Start the coroutine to destroy the prefab after 30 seconds
-            StartCoroutine(DestroyPrefabAfterDelay(currentPrefab, 30f));
+            StartCoroutine(DestroyPrefabAfterDelay(currentPrefab, 20f));
 
             // Wait for 30 seconds before spawning the next prefab
-            yield return new WaitForSeconds(30f);
+            yield return new WaitForSeconds(20f);
         }
     }
 
