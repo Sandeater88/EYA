@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18942209, g: 0.34384546, b: 0.4684013, a: 1}
+  m_IndirectSpecularColor: {r: 0.1893746, g: 0.3436175, b: 0.46801507, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1233,7 +1233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   garlicPrefab: {fileID: 5438671669853202423, guid: d760dd41d9f2cea44a41039b5687d050, type: 3}
-  spawnInterval: 10
+  spawnInterval: 25
   minGarlicCount: 2
   maxGarlicCount: 5
   yStep: 1
